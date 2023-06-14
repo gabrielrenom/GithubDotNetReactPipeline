@@ -13,6 +13,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+//Added
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
